@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="" />
+	<title>Pomodoro!</title>
+	<link rel="stylesheet" href="styles.css" />
+	<script type="text/javascript" src="scripts.js" defer ></script>
+</head>
+<body>
+
+	<div id="modalContainer">
+		<div id="modalContent">
+			<div>Work Time</div>
+			<select>
+				<option value="15">15 minutes</option>
+				<option value="20">20 minutes</option>
+				<option value="25">25 minutes</option>
+			</select>
+			<div>Break Time</div>
+			<select>
+				<option value="5">5 minutes</option>
+				<option value="10">10 minutes</option>
+			</select>
+			<div class="button">GO!</div>
+		</div>
+	</div>
+
+	<div id="mainContainer">
+		<p id="working">Get to work!</p>
+		<p id="break">Break time.</p>
+
+		<div id="timerContent">
+			<span id="timerMin">00</span>
+			<span>:</span>
+			<span id="timerSec">00</span>
+		</div>
+
+		<div id="controlButtons">
+			<div class="mButton" id="btnNew">New Timer</div>
+			<div class="mButton" id="btnReset">Reset</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
